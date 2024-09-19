@@ -6,7 +6,7 @@ Entrada
 Este problema não possui nenhuma entrada.
 
 Saída
-Você deve imprimir a mensagem "Hello World!" e em seguida o final de linha, conforme o exemplo abaixo. 
+Você deve imprimir a mensagem "Hello World!" e em seguida o final de linha. 
 */
 
 import java.util.*;
@@ -15,6 +15,8 @@ import java.io.*;
 
 class Main {
     public static void main(String[] args) {
+
         system.out.printf("Hello Word!")
+
     }
 }
