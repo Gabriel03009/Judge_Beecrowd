@@ -19,14 +19,14 @@ class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner (System.in);
 
-        int A, B, SOMA;
+        int a, b, soma;
         
-        A = in.nextInt();
-        B = in.nextInt();
+        a = in.nextInt();
+        b = in.nextInt();
 
-        SOMA = A + B;
+        soma = a + b;
 
-        System.out.printf("SOMA = %d\n", X);
+        System.out.printf("SOMA = %d\n", soma);
 
     }
 }

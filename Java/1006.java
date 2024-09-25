@@ -19,15 +19,15 @@ class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner (System.in);
 
-        double A, B, C, MEDIA;
+        double a, b, c, media;
 
-        A = in.nextDouble() * 2;
-        B = in.nextDouble() * 3;
-        C = in.nextDouble() * 5;
+        a = in.nextDouble() * 2;
+        b = in.nextDouble() * 3;
+        c = in.nextDouble() * 5;
 
-        MEDIA = (A + B + C) / 10;
+        media = (a + b + c) / 10;
         
-        System.out.printf("MEDIA = %.1f\n", MEDIA);
+        System.out.printf("MEDIA = %.1f\n", media);
 
         
     }

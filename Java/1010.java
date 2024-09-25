@@ -18,21 +18,21 @@ class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner (System.in);
         
-        int A, B, D, E;
-        double C, F, P1, P2, TOTAL;
+        int codigo1, numero1, codigo2, numero2;
+        double valor1, valor2, produto1, produto2, total;
 
-        A = in.nextInt();
-        B = in.nextInt();
-        C = in.nextDouble();
-        D = in.nextInt();
-        E = in.nextInt();
-        F = in.nextDouble();
+        codigo1 = in.nextInt();
+        numero1 = in.nextInt();
+        valor1 = in.nextDouble();
+        codigo2 = in.nextInt();
+        numero2 = in.nextInt();
+        valor2 = in.nextDouble();
 
-        P1 = B * C;
-        P2 = E * F;
-        TOTAL= P1 + P2;
+        produto1 = numero1 * valor1;
+        produto2 = numero2 * valor2;
+        total = produto1 + produto2;
 
-        System.out.printf ("VALOR A PAGAR: R$ %.2f\n", TOTAL);
+        System.out.printf ("VALOR A PAGAR: R$ %.2f\n", total);
             
     }
 }

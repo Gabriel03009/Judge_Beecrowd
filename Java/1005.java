@@ -21,14 +21,14 @@ class Main {
         
         Scanner in = new Scanner (System.in);
 
-        double A, B, MEDIA;
+        double a, b, media;
 
-        A = in.nextDouble() * 3.5;
-        B = in.nextDouble() * 7.5;
+        a = in.nextDouble() * 3.5;
+        b = in.nextDouble() * 7.5;
 
-        MEDIA = (A + B) / 11;
+        media = (a + b) / 11;
 
-        System.out.printf("MEDIA = %.5f\n", MEDIA);
+        System.out.printf("MEDIA = %.5f\n", media);
         
     }
 }

@@ -20,14 +20,14 @@ class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner (System.in);
 
-        int A, B, X;
+        int a, b, x;
         
-        A = in.nextInt();
-        B = in.nextInt();
+        a = in.nextInt();
+        b = in.nextInt();
         
-        X = A + B;
+        x = a + b;
 
-        System.out.printf("X = %d\n", X);
+        System.out.printf("X = %d\n", x);
 
     }
 }

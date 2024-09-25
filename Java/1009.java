@@ -17,16 +17,16 @@ class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner (System.in);
         
-        String NOME;
-        double A, B, TOTAL;
+        String nome;
+        double a, b, total;
 
-        NOME = in.next();
-        A = in.nextDouble();
-        B = in.nextDouble();
+        nome = in.next();
+        a = in.nextDouble();
+        b = in.nextDouble();
 
-        TOTAL = A + (B * 0.15);
+        total = a + (b * 0.15);
 
-        System.out.printf ("TOTAL = R$ %.2f\n", TOTAL);
+        System.out.printf ("TOTAL = R$ %.2f\n", total);
             
     }
 }

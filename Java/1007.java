@@ -17,16 +17,16 @@ class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner (System.in);
 
-        int A, B, C, D, DIFERENCA;
+        int a, b, c, d, diferenca;
 
-        A = in.nextInt();
-        B = in.nextInt();
-        C = in.nextInt();
-        D = in.nextInt();
+        a = in.nextInt();
+        b = in.nextInt();
+        c = in.nextInt();
+        d = in.nextInt();
 
-        DIFERENCA = (A * B - C * D);
+        diferenca = (a * b - c * d);
 
-        System.out.printf ("DIFERENCA = %d\n", DIFERENCA);
+        System.out.printf ("DIFERENCA = %d\n", diferenca);
             
     }
 }

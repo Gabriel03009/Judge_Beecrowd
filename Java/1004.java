@@ -18,14 +18,14 @@ class Main {
         
         Scanner in = new Scanner (System.in);
 
-        int A, B, PROD;
+        int a, b, produto;
 
-        A = in.nextInt();
-        B = in.nextInt();
+        a = in.nextInt();
+        b = in.nextInt();
 
-        PROD = A * B;
+        produto = a * b;
         
-        System.out.printf("PROD = %d\n", PROD);
+        System.out.printf("PROD = %d\n", produto);
         
     }
 }

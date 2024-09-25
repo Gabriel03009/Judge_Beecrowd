@@ -20,17 +20,17 @@ class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner (System.in);
 
-        int A, B;
-        double C, SALARIO;
+        int a, b;
+        double c, salario;
 
-        A = in.nextInt();
-        B = in.nextInt();
-        C = in.nextDouble();
+        a = in.nextInt();
+        b = in.nextInt();
+        c = in.nextDouble();
 
-        SALARIO = B * C;
+        salario = b * c;
 
-        System.out.printf("NUMBER = %d\n", A);
-        System.out.printf ("SALARY = U$ %.2f\n", SALARIO);
+        System.out.printf("NUMBER = %d\n", a);
+        System.out.printf ("SALARY = U$ %.2f\n", salario);
             
     }
 }
