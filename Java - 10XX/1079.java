@@ -9,7 +9,7 @@ O arquivo de entrada contém um valor inteiro N na primeira linha.
 Cada N linha a seguir contém um caso de teste com três valores com uma casa decimal cada valor.
 
 Saída
-Para cada caso de teste, imprima a média ponderada dos 3 valores, conforme exemplo abaixo.
+Para cada caso de teste, imprima a média ponderada dos 3 valores.
 */
 
 import java.util.*;
